@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+  <link href="C:\Users\Kasia\Desktop\Coding\website\styles.css" rel="stylesheet">
+<script src="/assets/jquery.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <ul>
+      <li><a href="2.html">About</a></li>
+      <li><a href="#">Our Cats</a></li>
+      <li><a href="#">House Rules</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+<h1>KITTY CAT</h1>
+<h2>Aberystwyth's First Vegan Cat Café</h2>
+</header>
+<h3>This month's specials</h3>
+  <table class="menu">
+    <tbody>
+      <tr>
+    <td><img src="https://images.unsplash.com/photo-1510545724575-ca1a01b0cd1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" height="300px"></td>
+    <td class="name">Christmas Cookies</br><small>Vegan, Gluten Free, Sugar free</br>£10</small></td>
+  </tr>
+  <tr>
+    <td><img src="https://images.unsplash.com/photo-1518704512655-a5a68b5f0ce5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" height="300px"></td>
+    <td class="name">Muffins</br><small>Vegan, Gluten Free</br>£10</small></td>
+  </tr>
+    <td><img src="https://images.unsplash.com/photo-1509474520651-53cf6a80536f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" height="300px"></td>
+    <td class="name">Doughnuts</br><small>Vegan</br>£10</small></td>
+  </tr>
+</tbody>
+</table>
+
+<script>
+$('div').on('click', function() {
+  $(this).toggleClass('show-description');
+});
+</script>
+
+</body>
